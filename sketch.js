@@ -68,7 +68,7 @@ function draw() {
 }
 
 function mouseDragged(){
-    Matter.Body.setPosition(stone.body, {x: mouseX , y: mouseY});
+    Matter.Body.setPosition(Stone1.body, {x: mouseX , y: mouseY});
 }
 
 
@@ -77,12 +77,12 @@ function mouseReleased(){
 }
 function keyPressed () {
     if(keyCode===32){
-        sling.attach(stone.body);
+        sling.attach(Stone1.body);
     }
 }
 function keyPressed() {
 	if (keyCode === 32) {
-    Matter.Body.setPosition(stoneObj.body, {x:235, y:420}) 
+    Matter.Body.setPosition(Stone1.body, {x:235, y:420}) 
 	  launcherObject.attach(stoneObj.body);
 	}
   }
@@ -109,7 +109,7 @@ function keyPressed() {
 
 function mouseDragged()
 {
-	Matter.Body.setPosition(stone.body, {x:mouseX, y:mouseY}) 
+	Matter.Body.setPosition(Stone1.body, {x:mouseX, y:mouseY}) 
 }
 
 function mouseReleased(){
@@ -117,6 +117,6 @@ function mouseReleased(){
 }
 function keyPressed () {
     if(keyCode===32){
-        sling.attach(stone.body);
+        sling.attach(Stone1.body);
     }
 }
