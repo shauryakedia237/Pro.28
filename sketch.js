@@ -18,7 +18,7 @@ function setup() {
 	world = engine.world;
 
 	//Create the Bodies Here.
-	Stone1 = new Stone(100,100,50,50);
+	Stone1 = new Stone(110,110,50,50);
 
 	groundObject=new ground(width/2,600,width,20);
 
