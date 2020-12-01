@@ -73,17 +73,17 @@ function mouseDragged(){
 
 
 function mouseReleased(){
-    sling.fly();
+    Sling1.fly();
 }
 function keyPressed () {
     if(keyCode===32){
-        sling.attach(Stone1.body);
+        Sling1.attach(Stone1.body);
     }
 }
 function keyPressed() {
 	if (keyCode === 32) {
     Matter.Body.setPosition(Stone1.body, {x:235, y:420}) 
-	  launcherObject.attach(stoneObj.body);
+	  Sling1.attach(Stone1.body);
 	}
   }
 
@@ -113,10 +113,10 @@ function mouseDragged()
 }
 
 function mouseReleased(){
-    sling.fly();
+    Sling1.fly();
 }
 function keyPressed () {
     if(keyCode===32){
-        sling.attach(Stone1.body);
+        Sling1.attach(Stone1.body);
     }
 }
