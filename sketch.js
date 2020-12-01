@@ -34,7 +34,7 @@ function setup() {
 	Mango9 = new Mango(1050,308,50,50);
 	Mango10 = new Mango(1050,235,50,50);
 
-	sling = new Sling(Stone1.body,{x:220, y:360});
+	sling = new Sling(Stone1.body,{x:220, y:390});
 	
 	Engine.run(engine);
   
