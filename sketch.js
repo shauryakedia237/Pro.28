@@ -107,10 +107,10 @@ function keyPressed() {
 
   }
 
-function mouseDragged(){
-    Matter.Body.setPosition(stone.body, {x: mouseX , y: mouseY});
+function mouseDragged()
+{
+	Matter.Body.setPosition(stone.body, {x:mouseX, y:mouseY}) 
 }
-
 
 function mouseReleased(){
     sling.fly();
