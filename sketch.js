@@ -67,5 +67,17 @@ function draw() {
   groundObject.display();
 }
 
+function mouseDragged(){
+    Matter.Body.setPosition(stone.body, {x: mouseX , y: mouseY});
+}
 
+
+function mouseReleased(){
+    sling.fly();
+}
+function keyPressed () {
+    if(keyCode===32){
+        sling.attach(stone.body);
+    }
+}
 
