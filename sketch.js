@@ -108,15 +108,15 @@ function keyPressed() {
   }
 
 function mouseDragged(){
-    Matter.Body.setPosition(bird.body, {x: mouseX , y: mouseY});
+    Matter.Body.setPosition(stone.body, {x: mouseX , y: mouseY});
 }
 
 
 function mouseReleased(){
-    slingshot.fly();
+    sling.fly();
 }
 function keyPressed () {
     if(keyCode===32){
-        slingshot.attach(bird.body);
+        sling.attach(stone.body);
     }
 }
