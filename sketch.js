@@ -34,7 +34,7 @@ function setup() {
 	Mango9 = new Mango(1050,308,50,50);
 	Mango10 = new Mango(1050,235,50,50);
 
-	sling = new Sling(Stone1.body,{x:230, y:400});
+	Sling1 = new Sling(Stone1.body,{x:230, y:400});
 	
 	Engine.run(engine);
   
@@ -61,7 +61,7 @@ function draw() {
   Mango8.display();
   Mango9.display();
   Mango10.display();
-  sling.display();
+  Sling1.display();
  
 
   groundObject.display();
